@@ -8,7 +8,7 @@ There are two branches `main` the starter branch and `solution` the completed br
 
 There is a notes folder, in the notes folder there is a [plan.md](./notes/plan.md) for the lesson.
 
-The plan contains talking points, steps , challenges and test snippets you will need to follow to complete the branch. Each Challenge has a solution.
+The plan contains talking points, steps , challenges and test snippets you will need to follow to complete the lesson.
 
 ---
 
