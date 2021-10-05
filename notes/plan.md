@@ -5,7 +5,7 @@ This repo is focused on getting the student use to using React testing library f
 ### Resources
 
 - [Slides](https://opusrs.sharepoint.com/:p:/r/sites/Nologyio/_layouts/15/Doc.aspx?sourcedoc=%7B9841e2f8-0a9d-43ce-a495-5ab107a674df%7D&action=edit&wdPreviousSession=4381b364-9c78-65d8-3182-a6a7cf444be0)
-- [Github plan.md]()
+- [Github plan.md](https://github.com/nology-tech/react-testing-library-lesson/blob/main/notes/plan.md)
 - [React Testing library Docs](https://testing-library.com/)
 - [Jest](https://jestjs.io/)
 
