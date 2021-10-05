@@ -14,7 +14,7 @@ This repo is focused on getting the student use to using React testing library f
 - Understand different types of tests
 - React Testing Library Mindset
 - Writing simple component Unit tests
-- Mimicking the user
+- Testing User Interaction
 
 ---
 
@@ -51,6 +51,8 @@ This could be different user flows:
 - User signs up
 - User adds item to cart then checkouts
 
+---
+
 ## React Testing Library Mindset
 
 React Testing library gives you utilities that encourage you to write tests that closely resemble how your web pages are used.
@@ -84,6 +86,8 @@ The command to run the tests is `npm test` or `npm run test`
     "eject": "react-scripts eject"
   },
 ```
+
+---
 
 ## Writing simple component Unit tests
 
@@ -191,7 +195,9 @@ it("should not render the success message on load", () => {
 });
 ```
 
-## User Interaction
+---
+
+## Testing User Interaction
 
 Move onto a more complicated test that needs user interaction.
 
