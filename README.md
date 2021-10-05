@@ -1,16 +1,50 @@
+# React Testing Library Code-along
 
-# React Testing Library
+## About
 
-## Objectives
-- Understand different types of tests
-- React Testing Library
-- getBy, queryBy, selectors
-- RTL Mindset
+This is the React Testing Library Code-along covering testing in react for the \_nology course.
 
-## Slides
-https://opusrs.sharepoint.com/:p:/r/sites/Nologyio/_layouts/15/Doc.aspx?sourcedoc=%7B9841e2f8-0a9d-43ce-a495-5ab107a674df%7D&action=edit&wdPreviousSession=4381b364-9c78-65d8-3182-a6a7cf444be0
+There are two branches `main` the starter branch and `solution` the completed branch.
 
+There is a notes folder, in the notes folder there is a [plan.md](./notes/plan.md) for the lesson.
 
-## Resources:
+The plan contains talking points, steps , challenges and test snippets you will need to follow to complete the branch. Each Challenge has a solution.
+
+---
+
+## Setup
+
+Clone the repo and install the dependencies.
+
+```bash
+git clone https://github.com/nology-tech/react-testing-library-lesson.git
+cd react-testing-library-lesson
+npm install
+```
+
+To start the live server run.
+
+```bash
+npm start
+```
+
+To start the tests.
+
+```bash
+npm test
+```
+
+To change branch.
+
+```bash
+git checkout name-of-branch
+```
+
+---
+
+## Extra Resources:
+
+- [React Testing library Docs](https://testing-library.com/)
+- [Jest](https://jestjs.io/)
 - [Queries](https://testing-library.com/docs/queries/about)
 - [Extra reading](https://polvara.me/posts/five-things-you-didnt-know-about-testing-library)
