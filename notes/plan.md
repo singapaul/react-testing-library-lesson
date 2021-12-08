@@ -217,8 +217,8 @@ it("should not submit the form with invalid credentials and show warnings", () =
   const emailInput = screen.getByRole("textbox", { name: /email/i });
   userEvent.type(emailInput, "notvalidemail");
 
-  const button = screen.getByRole("button", { name: /Sign In/i }
-  userEvent.click(button));
+  const button = screen.getByRole("button", { name: /Sign In/i });
+  userEvent.click(button);
 
   const alert = screen.getByText("Sorry something went wrong");
   expect(alert).toBeTruthy();
