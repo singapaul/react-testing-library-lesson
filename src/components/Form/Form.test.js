@@ -3,8 +3,10 @@ import userEvent from "@testing-library/user-event";
 import Form from "./Form";
 
 // render returns object with a container
+// Cheap and quick testing method
 it("should match form component snapshot", ()=>{
-  const {container} = render 
+  const {container} = render(<Form />);
+  expect(container).toMatchSnapshot();
 })
 
 it("should render form", () => {
